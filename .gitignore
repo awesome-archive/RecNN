@@ -1,7 +1,8 @@
 data/*
 !recnn/data/
 runs/
-
+envs/
+.vscode/
 models/
 recnn/.idea/
 .ipynb_checkpoints/
@@ -9,6 +10,7 @@ recnn/.idea/
 *csv
 *zip
 .idea/
+.desktopfolder
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -114,3 +116,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# other
+.pyre_configuration
